@@ -29,7 +29,9 @@ namespace WpfSandbox
         private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
             if (this.DataContext != null)
-            { ((PasswordModel)((PasswordBox)sender).DataContext).Password = ((PasswordBox)sender).SecurePassword; }
+            {
+                ((PasswordModel)((PasswordBox)sender).DataContext).Password = ((PasswordBox)sender).Password;
+            }
         }
     }
 }

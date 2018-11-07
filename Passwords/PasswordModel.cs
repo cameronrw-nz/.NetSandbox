@@ -4,11 +4,11 @@ namespace WpfSandbox
 {
     public class PasswordModel
     {
-        private SecureString _password;
+        private string _password;
 
         public string Text => "This is a password row";
 
-        public SecureString Password
+        public string Password
         {
             get
             {

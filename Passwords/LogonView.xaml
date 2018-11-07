@@ -29,8 +29,5 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
-
-        <ListView ItemsSource="{Binding Passwords}"
-                  DisplayMemberPath="Text"/>
     </StackPanel>
 </UserControl>
